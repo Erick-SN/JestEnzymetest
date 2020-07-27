@@ -31,12 +31,13 @@ const Giftgrid = ({ category, query, setQuery }) => {
   return (
     <>
       <h1>{category}</h1>
-
-      {images.map((img) => (
-        <GiftGridItem key={img.id} {...img}>
-          img.title
-        </GiftGridItem>
-      ))}
+      <div className='card-grid'>
+        {images.map((img) => (
+          <GiftGridItem key={img.id} {...img}>
+            img.title
+          </GiftGridItem>
+        ))}
+      </div>
     </>
   );
 };
