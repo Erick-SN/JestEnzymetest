@@ -2,17 +2,16 @@ import React, { useState } from 'react';
 import AddCategory from './AddCategory';
 import GiftGrid from './GiftGrid';
 const GiftExpertApp = () => {
-  const [categories, setCategories] = useState(['One punch']);
-  const [query, setQuery] = useState(false);
+  const [categories, setCategories] = useState(['One Punch']);
+
   return (
     <>
       <h2>My app</h2>
-      <AddCategory setCategories={setCategories} setQuery={setQuery} />
+      <AddCategory setCategories={setCategories} />
       <hr />
-      <button>Add</button>
       <ol>
         {categories.map((category) => (
-          <GiftGrid category={category} query={query} setQuery={setQuery} />
+          <GiftGrid key={category} category={category} />
         ))}
       </ol>
     </>
