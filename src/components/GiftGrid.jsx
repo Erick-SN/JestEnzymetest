@@ -6,8 +6,8 @@ const GiftGrid = ({ category }) => {
   const { data: images, loading } = useFetch(category);
   return (
     <>
-      <h1>{category}</h1>
-      {loading && <p>Loading...</p>}
+      <h3 className='animate_animated animate_fadeIn'>{category}</h3>
+      {loading && <p className='animate_animated animate_flash'>Loading...</p>}
       <div className='card-grid'>
         {images.map((img) => (
           <GiftGridItem key={img.id} {...img}>
