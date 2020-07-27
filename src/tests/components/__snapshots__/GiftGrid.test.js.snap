@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test at <GiftGrid/> Render <GiftGrid/> component 1`] = `ShallowWrapper {}`;
+
+exports[`Test at <GiftGrid/> shoud load images 1`] = `ShallowWrapper {}`;

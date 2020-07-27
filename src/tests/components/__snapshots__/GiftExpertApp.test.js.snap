@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test at <GiftExpertApp /> Render <GiftExpertApp /> 1`] = `ShallowWrapper {}`;
+
+exports[`Test at <GiftExpertApp /> Should show a list of categories 1`] = `ShallowWrapper {}`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test at <AddCategory /> Render component 1`] = `ShallowWrapper {}`;
